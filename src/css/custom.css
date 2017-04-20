@@ -1,0 +1,71 @@
+/*************************/
+/********* GLOBAL ********/
+/*************************/
+
+body {
+	background: #6a6a6a;
+}
+
+h2 {
+	font-family: "Times New Roman", sans-serif;
+	font-weight: bold;
+}
+
+.content {
+	background: white;
+	padding: 20px 10px;
+	margin-top: 50px !important;
+	margin-bottom: 50px !important;
+	border-radius: 5px;
+}
+
+.col-centered {
+	float: none;
+	margin: 0 auto;
+}
+
+/*************************/
+/********** HOME *********/
+/*************************/
+#headline > h2 {
+	padding-right: 10px;
+	border-right: 1px solid #999999;
+	padding-left: 10px;
+	border-left: 1px solid #999999;
+}
+#offer {
+	margin-top: 20px;
+}
+
+#offer-list > li {
+	list-style-type: none;
+}
+
+#offer-list > li:before {
+	font-family: 'FontAwesome';
+	font-size: 25px;
+	content: '\f046';
+	margin: 0 5px 0 -15px;
+	color: #42a1fb;
+}
+
+#form-area {
+	margin-bottom: 20px;
+}
+
+.form-img {
+	width: 100%;
+}
+
+form {
+	margin-top: 10px;
+}
+
+#form-error {
+	display: none;
+	margin-top: 10px;
+	color: white;
+	background-color: #ff6666;
+	border: 2px solid red;
+	border-radius: 5px;
+}
